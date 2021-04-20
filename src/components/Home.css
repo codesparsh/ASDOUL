@@ -1,0 +1,69 @@
+
+
+.left-side h1,.left-side h2,.left-side h3,.left-side h4,.left-side h5,.left-side h6,.left-side p{
+    color: white;
+}
+
+.left-side{
+    height: 100vh;
+}
+
+.right-side{
+    position: absolute;
+    right: 0;
+}
+
+.left-side .up{
+    min-height: 50vh;
+    max-height: fit-content;
+    background-color: #7164FF;
+}
+
+.left-side .down{
+    min-height: 50vh;
+    max-height: fit-content;
+    background-color: #6155DB;
+}
+
+@media screen and (max-width: 850px) {
+
+ 
+    .left-side .down{
+        display: none;
+        visibility: hidden;
+    }
+
+    .right-side{
+        position: relative;
+    }
+
+
+
+    .left-side{
+        position: relative;
+        height: 50vh;
+    }
+}
+
+.features img{
+    width: auto;
+    height:50%;
+
+}
+
+.img-box{
+    width: 100%;
+}
+
+.nav{
+    height: 15vh;
+}
+
+.tiles{
+    color: orange;
+    background-color: orange;
+    /* background-size: cover; */
+    height: auto;
+    width: 100%;
+
+}

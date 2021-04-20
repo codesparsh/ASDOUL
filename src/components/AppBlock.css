@@ -1,0 +1,23 @@
+nav{
+    background-color: #7164FF;
+    width: 100%;
+}
+
+.title{
+    color: white;
+    font-weight: 600;
+}
+
+.tile{
+    background-color: orange;
+    background-size: contain;
+    width: 80%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 850px) {
+    table{
+        overflow: scroll;
+    }
+}
